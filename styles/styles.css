@@ -1,0 +1,200 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu-container {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-left: 240px;
+}
+
+.logo-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.menus {
+    display: flex;
+    margin-right: 240px;
+    /* align-items: center; */
+}
+
+.logo-photo {
+    width: 86.041px;
+    height: 40px;
+    padding-top: 44px;
+}
+
+.item {
+    /* margin-right: 240px; */
+    padding-right: 32px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.banner {
+    background: #FFF;
+    width: 1920px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.banner-container {
+    background-image: url(../images/Group\ 14.png);
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+    width: 901px;
+    height: 700px;
+}
+
+.banner-title-one {
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title-two {
+    text-align: center;
+    font-size: 5.9rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+    background-color: #FF42A5;
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.btn-optional {
+    background-color: #4EC5F7;
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.banner-img {
+    width: 711px;
+}
+
+.gamer-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.gamer-title {
+    text-align: end;
+}
+
+.gamer-discription {
+    text-align: end;
+}
+
+.gamer-quote {
+    text-align: end;
+}
+
+.online-games {
+    background: #FFF;
+}
+
+.play-instant-primary {
+    background: #FFF;
+    display: flex;
+    justify-content: space-around;
+    width: 1920px;
+}
+
+.careers {
+    width: 1920px;
+    background: #F948B2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.careers-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-one {
+    text-align: start;
+}
+
+.info-two {
+    text-align: end;
+}
+
+.btn-careers {
+    background-color: #FFF;
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FF42A5;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.games-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 1920px;
+}
+.games-info-one{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.games-info-two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.games-title-info{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-section {
+    background-color: #0B0223;
+    text-align: center;
+    padding-bottom: 150px;
+    width: 1920px;
+    /* height: 449px; */
+    margin: 0 auto;
+}

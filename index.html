@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@500;600;700;800&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/575ff76d77.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -19,7 +20,7 @@
             <div class="menu-container">
                 <div class="logo">
                     <img class="logo-photo" src="./images/Frame.png" alt="">
-                    <h1 class="logo-title">Gamer</h1>
+                    <h1 class="logo-title"><span class="text-primary">G</span>amer</h1>
                 </div>
                 <div class="menus">
                     <li class="item">About Us</li>
@@ -34,11 +35,11 @@
     <main>
         <section class="banner">
             <div class="banner-container">
-                <h1 class="banner-title-one">Play Like The</h1>
+                <h3 class="banner-title-one">Play Like The</h3>
                 <h1 class="banner-title-two">G.O.A.T.</h1>
-                <p>1-Click instant play</p>
-                <p>No Download</p>
-                <p>1000s of supported online games</p>
+                <p class="play"><i class="fa-regular fa-circle-play"></i> 1-Click instant play</p>
+                <p class="download"><i class="fa-solid fa-download"></i> No Download</p>
+                <p class="user"><i class="fa-solid fa-user-group"></i> 1000s of supported online games</p>
                 <button class="btn-primary">Sign In</button>
                 <button class="btn-optional">Go Rogue</button>
             </div>
@@ -60,18 +61,21 @@
                     multiplayer <br> mobile games. We reach over 400 million players each <br> month and our audience
                     keeps
                     growing.</p>
-                <button class="btn-primary">know more</button>
-                <h4 class="gamer-quote">Our purpose... <br>
-                    “unleash the gamer in everyone”</h4>
+                <div class="btn-info">
+                    <button class="btn-primary">know more</button>
+                </div>
+                <h4 class="gamer-quote"><span class="purpose">Our purpose... </span><br>
+                    <span class="unleash">“unleash the gamer in everyone”</span>
+                </h4>
             </div>
         </section>
 
         <section class="online-games">
             <div>
-                <h1>Online Games Funny Videos</h1>
-                <p>A Collection of Hilarious Videos to Brighten Your Day</p>
+                <h1 class="online-games-title">Online Games <span class="funny-text">Funny Videos</span></h1>
+                <p class="online-games-description">A Collection of Hilarious Videos to Brighten Your Day</p>
             </div>
-            <div>
+            <div class="online-games-pic">
                 <img src="images/Rectangle 4.png" alt="">
                 <img src="images/Rectangle 5.png" alt="">
                 <img src="images/Rectangle 7.png" alt="">
@@ -80,30 +84,40 @@
 
         </section>
 
-        <section class="play-instant-primary">
+        <section class="play-instant-container">
 
-            <div>
-                <h1>Play Instantly,<br>
-                    No Downloads <br>
-                    No Installs.</h1>
-                <p>Play games online for free without <br> downloading. Just click the Play button <br> and play
+            <div class="play-instant-info">
+                <h1 class="play-instant-title"><span class="play-text">Play Instantly,</span><br>
+                    <span class="download-text">No Downloads <br>
+                        No Installs.</span>
+                </h1>
+                <p class="play-description-primary">Play games online for free without <br> downloading. Just click the
+                    Play button <br> and play
                     instantly in your browser.</p>
             </div>
-            <div>
-                <img src="images/Rectangle 55.png" alt="">
+            <div class="play-instant-pic">
+                <img src="images/Rectangle 55.png" alt="" class="main-image">
+                <div>
+                    <img src="images/Rectangle 66.png" alt="" class="relative-image">
+                </div>
             </div>
 
         </section>
 
-        <section class="play-instant-primary">
+        <section class="play-games-container">
 
             <div>
-                <img src="images/Rectangle 67.png" alt="">
+                <img src="images/Rectangle 67.png" alt="" class="main-image">
+                <div>
+                    <img src="images/Rectangle 78.png" alt="" class="relative-image-secondary">
+                </div>
             </div>
 
-            <div>
-                <h1>Play Games <br> Online Anywhere, <br> Anytime!</h1>
-                <p>PC. dad’s phone, mom’s tablet, or your Chromebook, <br> with Gamer you can play your favorite games
+            <div class="play-games-info">
+                <h1 class="play-games-title"><span class="play-text">Play Games <br> Online</span> <span
+                        class="download-text">Anywhere, <br> Anytime!</span> </h1>
+                <p class="play-description-primary">PC. dad’s phone, mom’s tablet, or your Chromebook, <br> with Gamer
+                    you can play your favorite games
                     online <br> for free, any time, anywhere , on any device.</p>
             </div>
 
@@ -111,27 +125,30 @@
         </section>
 
         <section class="careers">
-            <div>
-                <h1>Careers</h1>
-                <p>Gamer is driven to create the best and most fun games for our millions of <br> players all around the
+            <div class="careers-container">
+                <h1 class="careers-title">Careers</h1>
+                <p class="careers-description">Gamer is driven to create the best and most fun games for our millions of
+                    <br> players all around the
                     world, and we,re always on the lookout for more top <br> talent to join our growing team. If you,d
                     like to help us make great games <br> and be a part of Gamers bright future, we,d love to hear from
                     you.</p>
                 <div class="careers-info">
-                    <p class="info-one">Multimedia Artist + <br>
-                        Data Engineer + <br>
-                        Adroid Engineer + <br>
-                        Server Developer + <br>
-                        Group Financial Accountant + <br>
+                    <p class="info-one">Multimedia Artist + <br> <br>
+                        Data Engineer + <br> <br>
+                        Adroid Engineer + <br> <br>
+                        Server Developer + <br> <br>
+                        Group Financial Accountant + <br> <br>
                         Senior User Acuisition Specialist +</p>
-                    <p class="info-two">Lisbon, Portugal <br>
-                        Lisbon, Portugal <br>
-                        Zoetermeer, Netherlands <br>
-                        Lisbon, Portugal <br>
-                        London, United Kingdom <br>
+                    <p class="info-two">Lisbon, Portugal <br> <br>
+                        Lisbon, Portugal <br> <br>
+                        Zoetermeer, Netherlands <br> <br>
+                        Lisbon, Portugal <br> <br>
+                        London, United Kingdom <br> <br>
                         Lisbon, Portugal</p>
                 </div>
-                <button class="btn-careers">See all positions</button>
+                <div class="careers-btn-info">
+                    <button class="btn-careers">See all positions</button>
+                </div>
             </div>
             <div>
                 <img src="images/Group 65.png" alt="">
@@ -195,12 +212,8 @@
 
     <footer class="footer-section">
         <div>
-            <h3 class="footer-title"><span class="txt-primary">Flower</span>Shop</h3>
-            <p class="footer-description">It is a long established fact that a reader will be distracted by the readable
-                <br> content of a page when looking at its layout.
-            </p>
+            
         </div>
-        <small class="footer-end">@2020-2023, FlowerShop.com. All rights reserved.</small>
     </footer>
 
 

@@ -21,6 +21,14 @@ body {
     text-align: center;
     font-size: 2.8rem;
     font-weight: 700;
+    padding-left: 20px;
+}
+
+.text-primary {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .menus {
@@ -46,17 +54,17 @@ body {
     background: #FFF;
     width: 1920px;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: space-evenly;
+    /* text-align: center; */
 }
+
 
 .banner-container {
     background-image: url(../images/Group\ 14.png);
-    /* display: flex;
-    justify-content: center; */
-    /* text-align: center; */
     width: 901px;
     height: 700px;
+    background-repeat: no-repeat;
+    padding-left: 240px;
 }
 
 .banner-title-one {
@@ -68,13 +76,48 @@ body {
 }
 
 .banner-title-two {
-    text-align: center;
-    font-size: 5.9rem;
+    /* text-align: center; */
+    font-size: 5.93rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.play {
+    color: #534C64;
+    /* text-align: center; */
+    font-size: 1.25;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.fa-circle-play {
+    color: #FF42A5;
+    padding-right: 12px;
+}
+
+.download {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.fa-download {
+    color: #FF42A5;
+    padding-right: 12px;
+}
+
+.user {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.fa-user-group {
+    color: #0B0223;
+    padding-right: 12px;
 }
 
 .btn-primary {
@@ -116,46 +159,209 @@ body {
 }
 
 .gamer-title {
-    text-align: end;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .gamer-discription {
-    text-align: end;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-info {
+    display: flex;
+    justify-content: end;
 }
 
 .gamer-quote {
-    text-align: end;
+    text-align: right;
+}
+
+.purpose {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .online-games {
     background: #FFF;
 }
 
-.play-instant-primary {
+.online-games-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.funny-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-description {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+.online-games-pic {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.play-instant-container {
     background: #FFF;
     display: flex;
     justify-content: space-around;
-    width: 1920px;
+    margin: 0px 240px 150px;
+    align-items: center;
+    /* width: 1920px; */
+}
+
+.play-instant-info {
+    align-items: center;
+}
+
+.play-instant-title {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.play-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.download-text {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.play-description-primary {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.main-image {
+    border-radius: 8px;
+    position: relative;
+}
+
+.relative-image {
+    border-radius: 8px;
+    /* border: 10px solid #FFF; */
+    /* position: absolute; */
+    margin-top: -300px;
+    margin-left: -150px;
+    position: absolute;
+}
+
+.play-games-container {
+    background: #FFF;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 240px 150px;
+    align-items: center;
+}
+
+.relative-image-secondary {
+    border-radius: 8px;
+    /* border: 10px solid #FFF; */
+    /* position: absolute; */
+    margin-top: -300px;
+    margin-right: 150px;
+    position: absolute;
+}
+
+.play-games-info {
+    align-items: center;
+}
+
+.play-games-title {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 .careers {
     width: 1920px;
+    height: 821px;
     background: #F948B2;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+.careers-container {
+    padding: 75px 0px 0px 240px;
+}
+
+.careers-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.careers-description {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: left;
+    width: 680px;
+    line-height: 30px;
 }
 
 .careers-info {
     display: flex;
     justify-content: space-between;
+    gap: 80px;
 }
 
 .info-one {
-    text-align: start;
+    text-align: left;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .info-two {
-    text-align: end;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.careers-btn-info {
+    text-align: left;
+    padding-top: 40px;
 }
 
 .btn-careers {
@@ -176,25 +382,20 @@ body {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     width: 1920px;
 }
-.games-info-one{
+
+.games-info-one {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
-.games-info-two{
+
+.games-info-two {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.games-title-info{
+
+.games-title-info {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.footer-section {
-    background-color: #0B0223;
-    text-align: center;
-    padding-bottom: 150px;
-    width: 1920px;
-    /* height: 449px; */
-    margin: 0 auto;
-}

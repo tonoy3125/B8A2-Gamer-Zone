@@ -469,19 +469,14 @@ body {
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     margin-top: 149px;
-    margin-bottom: 28px;
+    margin-bottom: 100px;
 }
 
-.games-info-two {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 146px;
-}
 
 .games-title-info:hover {
     border: 1px solid red;
     border-radius: 50px;
-    transition: 2s;
+    transition: 1s;
     padding: 4px;
 
 

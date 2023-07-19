@@ -50,6 +50,7 @@ body {
     padding-right: 32px;
     font-size: 18px;
     cursor: pointer;
+    padding-top: 20px;
 }
 
 .menus-item {
@@ -267,7 +268,46 @@ body {
     gap: 24px;
 }
 
-.online-games-pic:hover {}
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Change the background color and opacity as needed */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay i,
+.overlay span {
+    color: white;
+    font-size: 36px;
+}
+
+.overlay span {
+    margin-left: 10px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
 
 .play-instant-container {
     background: #FFF;
@@ -520,47 +560,7 @@ body {
     padding-bottom: 100px;
 }
 
-/* start */
-.image-container {
-    position: relative;
-    overflow: hidden;
-}
 
-.image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Change the background color and opacity as needed */
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.overlay i,
-.overlay span {
-    color: white;
-    font-size: 36px;
-}
-
-.overlay span {
-    margin-left: 10px;
-}
-
-.image-container:hover .overlay {
-    opacity: 1;
-}
 
 /* responsive start */
 
@@ -884,7 +884,7 @@ body {
     .careers {
         justify-content: center;
         flex-direction: column;
-        width: 576px;
+        width: 992px;
         height: 1000px;
 
 
@@ -942,7 +942,7 @@ body {
     }
 
     .footer-section {
-        width: 576px;
+        width: 992px;
     }
 
     .footer-small {
